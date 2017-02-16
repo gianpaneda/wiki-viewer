@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   function loadData() {
     for (i = 0; i < display[1].length; i++) {
-      $("#output").prepend("<div class=\"excerpt\"><a href=" + display[3][i] + "><h1>" + display[1][i] + "</h1>" + "<span>" + display[2][i] + "</span></div></br>"); 
+      $("#output").append("<div class=\"excerpt\"><a href=" + display[3][i] + "><h1>" + display[1][i] + "</h1>" + "<span>" + display[2][i] + "</span></div></br>"); 
     }
   }
 }); //document ready
